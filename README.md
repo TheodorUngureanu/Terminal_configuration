@@ -11,3 +11,5 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 # edit .zshrc
 # change iterm color with another .itermcolor file
+
+more info: https://github.com/bhilburn/powerlevel9k#virtualenv
