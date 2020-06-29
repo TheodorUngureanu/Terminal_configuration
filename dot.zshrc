@@ -1,11 +1,13 @@
+# For X11 to be able to recognize color format
+export TERM="xterm-256color"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/theodor_ungureanu/.oh-my-zsh"
 
-# source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-# plugins=(zsh-autosuggestions zsh-completions)
+#source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE='nerdfont-complete'
@@ -117,6 +119,9 @@ POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR=''
 POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR=''
 
 POWERLEVEL9K_CONTEXT_TEMPLATE='%n'
+POWERLEVEL9K_OS_ICON_BACKGROUND='clear'
+POWERLEVEL9K_OS_ICON_FOREGROUND='white'
+
 POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND='white'
 POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND='clear'
 
@@ -180,3 +185,9 @@ POWERLEVEL9K_STATUS_ERROR_FOREGROUND="red"
 # POWERLEVEL9K_FOLDER_ICON=''
 POWERLEVEL9K_STATUS_VERBOSE=true
 POWERLEVEL9K_STATUS_CROSS=true
+
+# color for autosugetion
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=3"
+
+# path
+source ~/.bash_profile
