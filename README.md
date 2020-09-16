@@ -41,3 +41,11 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 ### 5.edit .zshrc
 ### 6.download nerd font from https://www.nerdfonts.com/ and install it
 ### 7.change terminal font from ubuntu settings
+
+
+## Extra
+### Configure macbook launchpad icon size
+```
+defaults write com.apple.dock springboard-rows -int 9
+defaults write com.apple.dock springboard-columns -int 7;killall Dock
+```
