@@ -15,7 +15,8 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 ```
 ### 4.edit .zshrc
 ### 5.change iterm color with another .itermcolor file
-
+### 6.download nerd font from https://www.nerdfonts.com/ and install it
+### 7.change terminal (iterm2) font from: Preferrences > Text > Font
 more info: https://github.com/bhilburn/powerlevel9k#virtualenv
 
 
