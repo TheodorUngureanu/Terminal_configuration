@@ -44,7 +44,7 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 ### 7.change terminal font from ubuntu settings
 
 
-## Extra
+## MacOS Extra
 ### Configure macbook launchpad icon size
 ```
 defaults write com.apple.dock springboard-rows -int 9
